@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --color-pomodoro: #ba4949;
+  --color-pomodoro-dark: #a43b3b;
+  --color-pomodoro-light: #c15c5c;
+  --color-short-break: #38858a;
+  --color-short-break-dark: #2d6f73;
+  --color-short-break-light: #4c9a9e;
+  --color-long-break: #397097;
+  --color-long-break-dark: #2e5a7a;
+  --color-long-break-light: #4a82a8;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  transition: background-color 0.5s ease;
+}
