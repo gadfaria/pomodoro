@@ -6,11 +6,11 @@ const BG_COLORS: Record<Mode, string> = {
   longBreak: "bg-long-break",
 };
 
-const BTN_COLORS: Record<Mode, string> = {
-  pomodoro: "bg-pomodoro-dark hover:bg-pomodoro-light",
-  shortBreak: "bg-short-break-dark hover:bg-short-break-light",
-  longBreak: "bg-long-break-dark hover:bg-long-break-light",
-};
+// const BTN_COLORS: Record<Mode, string> = {
+//   pomodoro: "bg-pomodoro-dark hover:bg-pomodoro-light",
+//   shortBreak: "bg-short-break-dark hover:bg-short-break-light",
+//   longBreak: "bg-long-break-dark hover:bg-long-break-light",
+// };
 
 const TEXT_COLORS: Record<Mode, string> = {
   pomodoro: "text-pomodoro-dark",
